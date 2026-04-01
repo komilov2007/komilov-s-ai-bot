@@ -1,19 +1,13 @@
 {
-  "name": "komilovs-ai-bor",
+  "name": "komilovs-ai-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node bot.js",
-    "start": "node bot.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "Telegram AI bot for Vercel",
+  "main": "api/telegram.js",
   "type": "commonjs",
+  "scripts": {
+    "start": "node api/telegram.js"
+  },
   "dependencies": {
-    "dotenv": "^17.3.1",
-    "node-telegram-bot-api": "^0.67.0"
+    "dotenv": "^16.4.5"
   }
 }
